@@ -20,8 +20,10 @@ footer {
 }
 
 .jumbotron {
+    margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, purple, blue, brown);
+    background-image: linear-gradient(to right, red, 
+    blue, orange);
     color: white;
 }
 
@@ -29,4 +31,13 @@ footer {
     padding: 50px 0;
     border-bottom: 1px 0px;
     min-height: 200px;
+}
+
+.navbar {
+    background-color: orange;
+}
+
+.nav-link {
+    color: turquoise;
+}
 }
