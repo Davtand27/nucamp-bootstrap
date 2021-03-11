@@ -1,53 +1,46 @@
 body {
-    font-family: "Open Sans", sans-serif;
-}
+  font-family: "Open Sans", sans-serif, sans-serif; }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
-}
+  font-family: "Lobster", cursive, cursive; }
 
 h2 {
-    Color: Blue
-}
+  Color: blue; }
 
 header h2 {
-    color: bisque;
-}
+  color: #CEC8FF; }
 
 .site-footer {
-    background-image: linear-gradient(bisque, white);
-    padding: 20px 0px;
-}
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0px; }
 
 .jumbotron {
-    margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, red, 
-    blue, orange);
-    color: white;
-}
+  margin: 0;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, blue, #60106b);
+  color: white; }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px 0px;
-    min-height: 200px;
-}
+  padding: 50px 0;
+  border-bottom: 1px 0px;
+  min-height: 200px; }
 
 .navbar {
-    background-color: orange;
-}
+  background-color: #901CAD; }
 
 .tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
-}
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
-}
+  background-color: rgba(0, 0, 0, 0.5); }
 
 .carousel {
-    border: solid blue;
-}
+  border: solid blue; }
 
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
