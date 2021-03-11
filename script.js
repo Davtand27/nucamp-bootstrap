@@ -12,8 +12,8 @@ function myFunction() {
 
 
 $(function () {
-    $(".carousel").carousel({ interval: 2000 });
-    $("#carouselButton").on("click",(function () {
+    $(".carousel").carousel({ interval: 2000 })
+    $(".carousel").on("click", function () {
         if ($("#carouselButton").children("i").hasClass("fa-pause")) {
             $(".carousel").carousel("pause");
             $("#carouselButton").children("i").removeClass("fa-pause");
