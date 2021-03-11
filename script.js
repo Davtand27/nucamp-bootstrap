@@ -1,12 +1,27 @@
 var rv = document.getElementById("siteRV")
 var tent = document.getElementById("siteTent")
-var primary = "btn-primary" 
-var success = "btn-success" 
+var primary = "btn-primary"
+var success = "btn-success"
 
-function myFunction(){
+function myFunction() {
     tent.classList.toggle(primary)
     tent.classList.toggle(success)
     rv.classList.toggle(success)
     rv.classList.toggle(primary)
-
 }
+
+
+$(function () {
+    $(".carousel").carousel({ interval: 2000 });
+    $("#carouselButton").on("click",(function () {
+        if ($("#carouselButton").children("i").hasClass("fa-pause")) {
+            $(".carousel").carousel("pause");
+            $("#carouselButton").children("i").removeClass("fa-pause");
+            $("#carouselButton").children("i").addClass("fa-play");
+        } else {
+            $(".carousel").carousel("cycle");
+            $("#carouselButton").children("i").removeClass("fa-play");
+            $("#carouselButton").children("i").addClass("fa-pause");
+        }
+    })
+})
